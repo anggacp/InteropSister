@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "59930561444",
+    "firebase_url": "https://manganbos.firebaseio.com",
+    "project_id": "manganbos",
+    "storage_bucket": "manganbos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59930561444:android:ce9e7925ee10bd7431cf31",
+        "android_client_info": {
+          "package_name": "com.project.interopsister"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59930561444-5fpvoe6qgv06fuc1m6s5369o6aau66rn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWsjO5h9p4xpGj24WXKi1eNh-PVrYQe2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "59930561444-5fpvoe6qgv06fuc1m6s5369o6aau66rn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="400dp"
+    android:layout_gravity="center"
+    android:background="#FD8008"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/promo_thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        />
+    <TextView
+        android:id="@+id/promo_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/promo_thumbnail"
+        android:text="Nama promo"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/promo_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_below="@id/promo_name"
+        android:text="blablablablabla"/>
+    <TextView
+        android:id="@+id/promo_lokasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_below="@id/promo_description"/>
+    <TextView
+        android:id="@+id/promo_lokasi_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="asdasd"
+        android:textSize="14sp"
+        android:layout_below="@id/promo_lokasi"
+        />
+    <TextView
+        android:id="@+id/promo_period"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Period"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/promo_lokasi_content"/>
+    <TextView
+        android:id="@+id/promo_period_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="asdasd"
+        android:textSize="14sp"
+        android:layout_below="@id/promo_period"/>
+
+
+
+</RelativeLayout>
